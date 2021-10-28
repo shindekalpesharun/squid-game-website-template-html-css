@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Sofia", sans-serif;
+  text-decoration: none;
+}
+
+.content {
+  height: 100vh;
+  -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.active,
+.subtitle {
+  color: #f8b30c;
+}
+
+body {
+  background-image: url("./images/bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center 30%;
+}
+
+nav {
+  padding: 0px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 140px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  font-size: 1.1em;
+  gap: 32px;
+  font-weight: 700;
+}
+
+.container {
+  height: 60vh;
+  padding: 0px 24px;
+  display: flex;
+}
+
+.heading {
+  flex: 1;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title span {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.title h1 {
+  padding-top: 20px;
+  font-size: 72px;
+  transform: scale(1, 1.5);
+}
+
+.aside {
+  height: 100%;
+  width: 100%;
+  flex: 1;
+}
+
+.details {
+  padding-bottom: 24px;
+  display: flex;
+}
+
+.more {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.more span {
+  font-size: 20px;
+}
+
+hr {
+  margin: 0px 10px;
+}
+
+.description {
+  flex: 1;
+}
+
+.play a {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.play a img {
+  background-color: #f8b30c;
+  border-radius: 100%;
+}
+
+.play a span {
+  font-size: 20px;
+}
+
+.gallary {
+  padding-top: 16px;
+  display: flex;
+  height: 85%;
+  gap: 16px;
+}
+
+.video {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+}
+
+.video .list {
+  background-image: url("./images/1.jpg");
+  width: 50%;
+  height: 80%;
+  border-radius: 24px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video .list a img {
+  background-color: rgba(202, 202, 202, 0.5);
+  border-radius: 100%;
+  padding: 4px;
+}
+
+.photo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.photo .list:first-child {
+  flex: 1;
+}
+
+.photo .list img {
+  flex: 1;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 24px;
+}
